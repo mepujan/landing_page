@@ -220,7 +220,7 @@ and (max-device-width : 480px) {
   .intro-content{
     margin-top: -30px;
     display: block;
-    height: 155vh;
+    height: 154vh;
   }
   .services{
     height: 200vh;
