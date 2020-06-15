@@ -158,6 +158,9 @@ footer{
 }
 
 @media screen and (max-width: 768px){
+  .header{
+    height: 140vh;
+  }
   .header-content h2{
     font-size: 30px;
     padding: 20px;
@@ -165,7 +168,7 @@ footer{
 
   .intro-content{
     display: block;
-    height: 90vh;
+    height: 150vh;
   }
 
   .intro-content div{
@@ -173,7 +176,7 @@ footer{
   }
 
   .services{
-    height: 100vh;
+    height: 150vh;
     clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
   }
 
@@ -189,9 +192,10 @@ footer{
   }
 }
 
-@media screen and (max-width:360px){
+@media only screen and (min-device-width : 320px)
+and (max-device-width : 480px) {
   .header{
-    height: 120vh;
+    height: 150vh;
     margin-top: -10vh;
   }
   .header-content h2{
@@ -201,14 +205,19 @@ footer{
     line-height: 3px;
   }
   .btn{
-    padding-bottom: 5px;
+    display: block;
+    margin: 5px;
+    padding: 5px 25px;
+    font-weight: bold;
   }
   .intro-content{
     display: block;
-    height: 150vh;
+    height: 180vh;
   }
   .services{
-    height: 190vh;
+    height: 240vh;
   }
 
+  
 }
+
